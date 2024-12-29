@@ -18,4 +18,4 @@ This project investigates the challenges of training very deep neural networks, 
 
 - **Models:** VGG08, VGG38, VGG38 with Batch Normalization (BN), Residual Connections (RC), and a combination of both (BN + RC).
 - **Dataset:** CIFAR100 (60,000 32x32 images across 100 classes).
-- **Performance:** The combination of BN and RC yielded the best results, achieving **60.08% validation accuracy** with a **validation loss of 1.52**.
+
