@@ -1,0 +1,11 @@
+BN_ConvolutionalDimensionalityReductionBlock
+Input Shape: torch.Size([100, 3, 32, 32])
+Output Shape: torch.Size([100, 32, 16, 16])
+Example Input Values:
+tensor([[ 0.4976,  1.5630,  0.5740],
+        [-0.8602,  0.1470, -0.6346],
+        [ 0.9845,  0.0475,  0.1660]])
+Example Output Values:
+tensor([[ 1.3779e+00,  8.5142e-01,  1.4532e+00],
+        [ 1.0913e+00, -1.3180e-02, -7.0846e-04],
+        [ 1.9855e+00,  6.4289e-01,  3.0724e-01]], grad_fn=<SliceBackward0>)
